@@ -58,6 +58,9 @@ section{
 }
 
 .hero-section{
+    display: flex; /*this makes the container flex */
+    justify-content: center;
+    align-items: center;
     height: 300px;
     background-color: yellow;
     background: url(./img/Boca-Code-OG.jpeg);
@@ -67,6 +70,23 @@ section{
 }
 .hero-section > h1 {
 text-align: center;
+}
+
+.about-section{
+    
+    background-color: var(--white);
+    height: 100%;
+}
+
+article {
+    max-width: 300px;
+}
+
+.about-section-group{
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 footer{

@@ -28,34 +28,60 @@
     <main>
         <section class="hero-section">
             <h1 id="hero">Hero</h1>
-            </section>
+        </section>
         <section id="main">
-            <section class ="about-section">
-            <h2>About</h2>
-            <article>Article 1</article>
-            <article>Article 2</article>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <form onsubmit="handleSubmit()">
-                <label for="name">
-                    Name:
-                    <input type="text" onchange="handleNameChange(event)" name="name">
-                </label>
-                <br>
-                <label for="email">
-                    Email:
-                    <input type="email" name="email">
-                </label>
-                <br>
-                <label for="message">
-                    Message:
-                    <textarea name="message" cols="30" rows="4"></textarea>
-                </label>
-                <br>
-                <input type="submit" value="SEND">
-            </form>
-        </section>
+            <section class="about-section">
+                <h2>About</h2>
+                <div class="about-section-group">
+
+
+                    <article>
+                        <h3>Article 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusantium id perferendis,
+                            architecto ad quo! Tempora delectus, explicabo veritatis laborum dolore id adipisci aperiam
+                            asperiores, accusamus vel alias error quisquam?</p>
+                    </article>
+                    <article>
+                        <h3>Article 2</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ab non excepturi similique
+                            quia, facere tempora qui debitis porro illo harum ad ratione commodi tempore possimus fugit.
+                            Repellat, ea nobis.</p>
+                    </article>
+                    <article>
+                        <h3>Article 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusantium id perferendis,
+                            architecto ad quo! Tempora delectus, explicabo veritatis laborum dolore id adipisci aperiam
+                            asperiores, accusamus vel alias error quisquam?</p>
+                    </article>
+                    <article>
+                        <h3>Article 2</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ab non excepturi similique
+                            quia, facere tempora qui debitis porro illo harum ad ratione commodi tempore possimus fugit.
+                            Repellat, ea nobis.</p>
+                    </article>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <form onsubmit="handleSubmit()">
+                    <label for="name">
+                        Name:
+                        <input type="text" onchange="handleNameChange(event)" name="name">
+                    </label>
+                    <br>
+                    <label for="email">
+                        Email:
+                        <input type="email" name="email">
+                    </label>
+                    <br>
+                    <label for="message">
+                        Message:
+                        <textarea name="message" cols="30" rows="4"></textarea>
+                    </label>
+                    <br>
+                    <input type="submit" value="SEND">
+                </form>
+            </section>
     </main>
 
     <footer>
