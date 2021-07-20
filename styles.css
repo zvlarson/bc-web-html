@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit
+}
+
+:root{
+    --purple: #272262;
+    --pink: #ff216e;
+    --white: #e8e8e8;
+    --yellow: #ffdb02;
+    --orange: #ff5401;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+header{
+    background-color: var(--purple);
+    height: 50px;
+    color: var(--white);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    float: left;
+    padding-left: 3%;
+    padding-top: 1.5%;
+}
+
+.menulink{
+    font-size: 0.62rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.login-btn{
+    color: var(--orange);
+    float: right;
+}
+
+main{
+    background-color: var(--pink);
+}
+
+section{
+    height: 300px;
+    text-align: center;
+}
+
+.hero-section{
+    height: 300px;
+    background-color: yellow;
+    background: url(./img/Boca-Code-OG.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-section > h1 {
+text-align: center;
+}
+
+footer{
+    background-color: var(--orange);
+}
